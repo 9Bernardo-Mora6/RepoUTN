@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+   /* filter: alpha(opacity=98);
+    -moz-opacity:.98; opacity: .98; cambiar opacidad (explicado por el pepe)*/
+}
+body{
+    background-color: rgba(156, 212, 234, 0.452);
+}
+section{
+   /* background-image: url(fondo.svg); (fondo externo)*/
+    /*background-size: cover; (para que el fondo se adapte a todo lo q se ve) */ 
+    min-height: 100vh;
+}
+
+.tamañofoto{
+    width: 600px;
+    margin: auto; 
+    
+}
+
+.lugarfoto{
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.alinearnavbar{
+    text-align: center;
+    padding: 0;
+    padding-top: 7rem;
+
+}
+
+.footerestilo{
+    display: inline;
+    color: rgb(33, 33, 33);
+    padding: 5%;
+    
+
+}
+
+.footerestilo a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #444; 
+    font-size: 20px; 
+    
+}
+.footerestilo a:hover{
+    transition: all 0.3s;
+    transform: translateY(-15px);
+    color: rgb(139, 162, 167); 
+     
+}
+
+.container{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card{
+    margin: 20px;
+    align-items: center;
+    flex-direction: row;
+    
+    width: 400px;
+}
+.card img{
+   width: 100%;
+   
+}
+    
+.container .card h5{
+    text-align: center;
+}
+
+/*@media only screen and (max-width:500px){
+    .tamañofoto{
+        width: 250px;   
+    }
+
+}
+
+@media only screen and (min-width:500px) and (max-width: 1000px){
+    .tamañofoto{
+        width: 800px;   
+    }
+
+}(acomoda el tamaño segun el tamaño de pantalla)*/
